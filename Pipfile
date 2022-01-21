@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+cryptography = "*"
+passlib = "*"
+mysql-connector-python = "*"
+python-dotenv = "*"
+schema = "*"
+pycrypto = "*"
+rsa = "*"
+termcolor = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
+
+[scripts]
+start = "python main.py"
